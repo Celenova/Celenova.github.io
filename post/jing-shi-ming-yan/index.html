@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="
+1.如果一种文明没有一种强大的力量来保护，那么这种文明是脆弱的，迟早会被野蛮所征服。
+
+
+2.如果文明没有对野蛮进行排斥、打压，那么这种文明不是真正的文明。
+
+
+3.要消灭一个民族，首先瓦解它的文化；要瓦解它的文化，首先先消灭承载它的语言..." />
+    <meta name="keywords" content="娱乐" />
+    <link rel="stylesheet" href="https://Celenova.github.io/media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://Celenova.github.io/styles/main.css">
+    <!-- 代码渲染风格css -->
+    
+        <link rel="stylesheet" href="https://Celenova.github.io/media/css//default.min.css">
+        
+    <!-- 代码高亮插件 -->
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.8.0/dist/highlightjs-line-numbers.min.js"></script>
+    <!-- 代码复制插件 -->
+    <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
+    <!-- live2d插件 -->
+    <link rel="stylesheet" href="https://Celenova.github.io/media/css/live2d.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <!-- 数学公式 -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
+        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
+        </script>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            },
+            {
+                left: "$",
+                right: "$",
+                display: false
+            }
+            ]
+        });
+    </script>
+    
+    <title>警世名言</title>
+
+    <!-- 大纲索引css调整 -->
+    
+    <style>
+        .markdownIt-TOC {
+            padding-left: 2px;
+            width: 100%;
+        }
+
+        .markdownIt-TOC li {
+            padding-left: 2%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    </div>
+    <div id="domainname" style="display:none">https://Celenova.github.io</div>
+    <div id="content">
+        <div>
+            <!----------- 移动端导航栏👇 ----------------->
+            <div id="bar">
+                <style>
+  .navmobile {
+    z-index: 15;
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .navbar {
+      max-width: 100vw;
+    }
+  }
+
+  @media screen and (max-width:1200px) and (min-width: 768px) {
+    @media (min-width: 768px) {
+      .navbar-nav {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .mbapspan {
+      padding: 0;
+    }
+  }
+</style>
+<div class="pjaxloading"  onclick="pjaxloadingClose()">
+  <div class="loadingbackground"></div>
+  <div id="loading">
+    <div class="loading">
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-top navmobile">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barmenu"
+        aria-expanded="false" id="barbutton">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a data-pjax class="navbar-brand" style="color:white" href="https://Celenova.github.io">Celenova&nbsp;&nbsp;|</a>
+      <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
+          style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="barmenu">
+      <ul class="nav navbar-nav">
+        
+        
+        <li>
+          <a data-pjax href="/" style="color:white">
+            首页
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/archives" style="color:white">
+            归档
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/tags" style="color:white">
+            标签
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/post/about" style="color:white">
+            关于
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        <li><a data-pjax href="https://Celenova.github.io/friends" style="color:white">友链</a></li>
+
+        
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <!-- 引入jQuery核心js文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script>
+    let btstate = false;
+    var bt = $("#barbutton");
+    var bm = $("#barmenu");
+    bt.click(function () {
+      dropdown();
+    })
+    function dropdown() {
+      console.log(btstate);
+      //下拉
+      if (btstate == false) {
+        bt.removeClass("collapsed");
+        bt.attr("aria-expanded", "true");
+        bm.attr("aria-expanded", "true")
+        bm.fadeIn(700);
+        btstate = true;
+      }
+      else {
+        bt.addClass("collapsed");
+        bt.attr("aria-expanded", "false");
+        bm.removeClass("in");
+        bm.hide();
+        bm.attr("aria-expanded", "false");
+        btstate = false;
+      }
+    }
+  </script> 
+            </div>
+            <!----------- 移动端导航栏👆 ----------------->
+
+            <!--------------- pc端菜单栏👇 ---------------->
+            <div class="side"><head>
+    <link rel="stylesheet" href="https://Celenova.github.io/media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://Celenova.github.io/styles/main.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.8.0/dist/highlightjs-line-numbers.min.js"></script>
+    
+        <link rel="stylesheet" href="https://Celenova.github.io/media/css//default.min.css">
+        
+    <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://Celenova.github.io/media/css/live2d.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+    <!--------- 数学公式👇---- -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
+        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
+    </script>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                    left: "$$",
+                    right: "$$",
+                    display: true
+                },
+                {
+                    left: "$",
+                    right: "$",
+                    display: false
+                }
+            ]
+        });
+    </script>
+    
+    <!--------- 数学公式👆----------------- -->
+    <!--------- daovocie功能👇 ------------------->
+    
+    <!--------- daovocie功能👆 ------------------->
+    <!-- -----------------twikoo评论系统引入👇 --------->
+    <script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script>
+    <!-- -----------------twikoo评论系统引入👆 --------->
+    <!---------------- leancloud api 功能依赖引入👇 -------->
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.13.0/dist/av-min.js"></script>
+    <!---------------- leancloud api 功能依赖引入👆 -------->
+    <!------------------ valine评论系统引入👇 ------------------>
+    <script src="https://Celenova.github.io/media/js/valine.min.js"></script>
+    <!------------------ valine评论系统引入👆 ------------------>
+    <!---------------- 今日诗词api功能依赖👇 ----------------------->
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <!---------------- 今日诗词api功能依赖👆 ----------------------->
+    <!---------------- 今日诗词api功能依赖👇 ----------------------->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ispeak-bber/ispeak-bber.min.js" charset="utf-8"></script>
+    <!---------------- 哔哔功能依赖👆 ----------------------->
+
+
+</head>
+
+<style>
+    body {
+        overflow-x: hidden;
+        height: 100vh;
+        overflow-y: scroll;
+        cursor: url("https://Celenova.github.io/media/images/mouse_cursor.png"), auto
+    }
+</style>
+
+<body>
+    <!--=------ 页面加载动态画面👇 --------------->
+    <div class="pjaxloading" onclick="pjaxloadingClose()">
+        <div class="loadingbackground"></div>
+        <div id="loading-aname">
+            <div class="loading-aname">
+            </div>
+        </div>
+    </div>
+    <!--=------ 页面加载动态画面👆 --------------->
+
+    <!--------------- 左侧菜单栏👇 ------------------------>
+    
+    <!--------------- 左侧菜单栏👆 ------------------------>
+
+    <!----------------- 顶部菜单栏👇 ------------------------>
+    
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top navbartop">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a data-pjax class="navbar-brand" href="https://Celenova.github.io"
+                        style="font-size:21px">Celenova&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                    <a class="navbar-brand topdescription" href=""
+                        style="font-size:15px;font-family:kaiti">愿此行，终抵群星</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    
+                    <div class="search nav navbar-nav" style="margin-top:8px">
+                        <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+                        <input type="text" class="search-input"
+                            placeholder="标题搜索 ⚆_⚆ つ♡">
+                        <div class="search-results"></div>
+                    </div>
+                    
+                <div class="search nav navbar-nav searchtop">
+                <a title="社交信息" onclick="document.getElementById('socialMenu').style.display='block'" class="topshare-button"><i><img class="social"
+                    src="https://Celenova.github.io/media/images/social.png"></i></a>
+                    <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
+                                src='https://Celenova.github.io/media/images/music.png' alt="音乐播放器"
+                                class="musicbtn musictop"></i></a>
+                </div>
+                <ul class="nav navbar-nav" style="float: right;margin-right:5%">
+                    
+                    
+                    <li>
+                        <a data-pjax href="/"  class="menutopbutton">
+                            <i style="font-size: 40px;"><img class="icon menuicon" src="" alt="首页"></i>
+                            首页
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a data-pjax href="/archives"  class="menutopbutton">
+                            <i style="font-size: 40px;"><img class="icon menuicon" src="" alt="归档"></i>
+                            归档
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a data-pjax href="/tags"  class="menutopbutton">
+                            <i style="font-size: 40px;"><img class="icon menuicon" src="" alt="标签"></i>
+                            标签
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a data-pjax href="/post/about"  class="menutopbutton">
+                            <i style="font-size: 40px;"><img class="icon menuicon" src="" alt="关于"></i>
+                            关于
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li><a data-pjax href="https://Celenova.github.io/friends"  class="menutopbutton">
+                            <i style="font-size: 40px;"><img class="icon menuicon" src="" alt="友人帐"></i>友人帐
+                        </a></li>
+                    
+                    <!--  -->
+                  <li><img src="https://Celenova.github.io/images/avatar.png?v=1754398524202" alt=""
+                    class="menutopavatar"></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+    <div id="socialMenu">
+        <div class="animate">
+            <div class="socialContainer">
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+            <div id="qq" style="display:none"></div>
+        </div>
+    </div>
+    <img class="moon" src="https://Celenova.github.io/media/images/moon.png" onclick="moonlight()">
+    <script>
+        var social = document.getElementById('socialMenu');
+        var fancybox = document.getElementsByClassName('fancybox-stage');
+        // 鼠标点击模型外区域关闭登录框
+        window.onclick = function (event) {
+            if (event.target == social) {
+                social.style.display = "none";
+            }
+        }
+    </script>
+    </div>
+    
+    <!----------------- 顶部菜单栏👆 ------------------------>
+
+<!--核心功能加载-->
+<script src="https://Celenova.github.io/media/js/mainfunc.js"></script>
+
+<!------------- Fog1.0版本彩蛋👇 -------------->
+    <!-- <section id="terrestrial" class="popup">
+        <a href="#" class="back">&lt; back</a>
+    </section>
+
+    <div class="flycontainer">
+        <div class="flyword">御风飞行中...</div>
+    </div>
+
+    <script>
+        $("#fog_go").click(function(){fog_go()});
+        async function fog_go(){
+            $(".bars").hide()
+            $("#live2d").hide()
+            await sleep(3000);
+            $(".flycontainer").css("display","flex");
+            $(".popup").fadeOut(500)
+            await sleep(2000);
+            var sitename = "Celenova";
+            getFogUser(sitename);
+        }
+
+        function fog_goregis(){
+            var sitename = "Celenova";
+            var siteurl = "https://Celenova.github.io";
+            regisFogUser(sitename,siteurl);
+        }
+        fog_goregis();
+    </script> -->
+<!------------- Fog1.0版本彩蛋👆 -------------->
+<script>
+    function change_topmenu(){
+        tmcolor = "#f3f0ff"
+        tsnamecolor = "#9775fa"
+        $(".navbar-inverse .navbar-nav>li>a").css("color",tmcolor)
+        $(".navbar-inverse .navbar-brand").css("color",tsnamecolor)
+        $(".navbar-fixed-top").css("border-radius","0 0 10px 10px")
+    }
+</script>
+
+<!------ 根据自定义配置声明变量👇 --------------------->
+    
+    <script>
+        var postnumChoice = false
+    </script>
+    
+    
+    <script>
+        var shareChoice = false
+    </script>
+    
+    
+    <script>
+        var donateChoice = false
+    </script>
+    
+    
+    <script>
+        var searchChoice = true
+    </script>
+    
+    <script>let postsnum = 0;</script>
+    <div id="side-posttitle" style="display: none;">
+    
+    
+    致我的初中
+    <script>
+        postsnum += 1
+    </script>
+    
+    
+    
+    背包问题
+    <script>
+        postsnum += 1
+    </script>
+    
+    
+    
+    C++|STL
+    <script>
+        postsnum += 1
+    </script>
+    
+    
+    
+    高中数学必修一笔记
+    <script>
+        postsnum += 1
+    </script>
+    
+    
+    
+    警世名言
+    <script>
+        postsnum += 1
+    </script>
+    
+    
+    
+    
+    </div>
+    
+        <script>
+            change_topmenu()
+            var menupos = 'top'
+            $(".topdescription").css("color","#e5dbff")
+        </script>
+        
+    <script>
+        let commentsHide = false
+    </script>
+    <!------ 根据自定义配置声明变量👆 --------------------->
+
+
+    <!----------根据自定义配置设置图标信息👇---------->
+    <script>
+        var icondict = new Array();
+    </script>
+    
+        
+    
+    <!----------根据自定义配置设置图标信息👆---------->
+</body>
+
+<script src="https://Celenova.github.io/media/share/dist/Share.js"></script>
+<!-- 页面pjax测试 -->
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"></script>
+<!--确保jQuery已经在此之前加载-->
+<!-- <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> -->
+<script src="https://Celenova.github.io/media/js/all-pjax.js"></script>
+<script>
+    //-------------------------------说说功能👇--------------------------------------
+    let talksall = [];
+    let talks = [];
+    let talkindex = 0;
+    get();
+
+    function get() {
+        var t = JSON.parse('[]');
+        talkindex = t.length - 1;
+        for (var i = 0; i <= t.length - 1; i++) {
+            var d = {};
+            d["time"] = t[i].time;
+            d["author"] = t[i].author;
+            d["text"] = t[i].text;
+            d["img"] = t[i].img;
+            talksall.push(d);
+        }
+    }
+
+    function add() {
+        for (var i = talkindex; i >= 0 && i > talkindex - 3; i--) {
+            talks.push(talksall[i]);
+        }
+        talkindex = (talkindex - 3) >= 0 ? (talkindex - 3) : -1;
+        if (talkindex < 0) $("#getmorebt").hide();
+        show();
+    }
+
+    function show() {
+        var talkT = document.getElementById("talkContainer");
+        talkT.innerHTML = "";
+        for (var i = 0; i < talks.length; i++) {
+            if (talks[i].img != '') {
+                talkT.innerHTML += '\
+            <div class="talk" v-for="t in talks"> \
+                <span data-fancybox="images" href="' + talks[i].img + '"><img src="' + talks[i].img + '" class="talkimg"></span> \
+                <div class="ainfo">\
+                    <div class="ainfo-intro">\
+                        <div class="author">' + talks[i].author + '</div>·\
+                        <div class="time">' + talks[i].time + '</div>\
+                    </div>\
+                </div>\
+                <div class="talkcontent">' + talks[i].text + '\
+                </div\>\
+            ';
+            } else {
+                talkT.innerHTML += '\
+            <div class="talk" v-for="t in talks"> \
+                <div class="ainfo">\
+                    <div class="ainfo-intro">\
+                        <div class="author">' + talks[i].author + '</div>·\
+                        <div class="time">' + talks[i].time + '</div>\
+                    </div>\
+                </div>\
+                <div class="talkcontent">' + talks[i].text + '\
+                </div\>\
+            ';
+            }
+        }
+    }
+    //-------------------------------说说功能👆--------------------------------------
+</script>
+
+<!---->
+<script>
+    function replaceAvatar() {
+        twikoo_avatar = $(".tk-avatar-img");
+        for (var i = 0; i < twikoo_avatar.length; i++) {
+            var asrc = twikoo_avatar.eq(i).attr('src');
+            if (asrc.search('cn.gravatar.com') != -1) {
+                twikoo_avatar.eq(i).attr('src', 'https://Celenova.github.io/media/images/comavatar.png');
+            }
+        }
+    }
+
+    function showWechat() {
+        var wechat = '';
+        alert("博主微信号：" + wechat);
+        return false;
+    }
+</script>
+
+<script>
+    /**
+     * https://github.com/tangkaichuan/gridea-search
+     */
+    // 检查缓存是否最新
+    function checkCache() {
+        var caches_postsnum = localStorage.getItem("postsnum");
+        var pt = document.getElementById("side-posttitle").innerHTML;
+        pt = pt.replace(/\s+/g, '').replace(/<script>.*?<\/script>/gi, "")
+        var ptlen = pt.length;
+        var ptlen_storage = localStorage.getItem("poststitlelen");
+        if (caches_postsnum != postsnum || ptlen != ptlen_storage) {
+            console.log("更新缓存");
+            return false
+        }
+        return true;
+    }
+
+    (function () {
+        var CACHES = checkCache()
+        if (!CACHES) {
+            var NOW = Date.now()
+            var API_CONTENT = '../api-content/index.html' + '?_=' + NOW
+            preload(API_CONTENT);
+            getContents(show_getContentresult);
+        }
+
+        function show_getContentresult(data) {
+            console.log("获取成功");
+            var postslen = data["posts"].length;
+            localStorage.setItem('postsnum', postslen);
+            var poststitlelen = 0;
+            var pt = document.getElementById("side-posttitle").innerHTML;
+            pt = pt.replace(/\s+/g, '').replace(/<script>.*?<\/script>/gi, "");
+            localStorage.setItem('poststitlelen', pt.length);
+        }
+
+
+
+        // preload
+        function preload(url) {
+            var preloadLink = document.createElement('link')
+            preloadLink.href = url
+            preloadLink.rel = 'preload'
+            preloadLink.as = 'fetch'
+            preloadLink.crossOrigin = 'anonymous'
+            document.head.appendChild(preloadLink)
+        }
+
+        // 异步 GET 请求
+        function get(obj) {
+            var xhr = new XMLHttpRequest()
+            xhr.open('get', obj.url, true)
+            xhr.send(null)
+            xhr.onreadystatechange = function () {
+                // 异步请求：响应状态为4，数据加载完毕
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        obj.success(xhr.responseText)
+                    } else {
+                        obj.error(xhr.status)
+                    }
+                }
+            }
+        }
+
+        // 获取博客全文 api
+        function getContents(callback) {
+            if (CACHES) {
+                callback(CACHES.contents)
+            } else {
+                get({
+                    url: API_CONTENT,
+                    success: function (data) {
+                        callback(JSON.parse(data));
+                        localStorage.setItem('ContentsCache', data);
+                        getStorageContent();
+                    }
+                })
+            }
+        }
+    })()
+    //------------------------核心功能--pjax全局渲染👇-------------------
+    let talkinit = false;
+    $(document).pjax('a[data-pjax]', '#main', {
+        fragment: '#main',
+        timeout: 8000
+    }).on('pjax:complete', function () {
+        //清空搜索栏
+        if (searchChoice) {
+            searchInit();
+            searchInput.value = "";
+        }
+        var pl = window.location.pathname;
+        //说说更新
+        if (pl.search("talk") != -1 && !talkinit) {
+            add();
+            talkinit = true;
+        } else if (pl.search("talk") != -1) {
+            show();
+        }
+        if (pl.search("post") != -1) {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+                hljs.lineNumbersBlock(block);
+            });
+            //文章热度
+            if(postnumChoice){
+                getHotnum();
+            }
+            //文章索引
+            toginit();
+            if (shareChoice)
+                shareInit();
+            if (donateChoice)
+                donateInit();
+            if ("default" == "default"&&!commentsHide) {
+                $("#comment").hide()
+                commentsHide = true
+            }
+            lazyload();
+            codeinit();
+            if ("default" == "twikoo") {
+                //twikoo头像更换
+                setTimeout(replaceAvatar, 3000);
+                setTimeout(replaceAvatar, 8000); //部分博主站点速度加载过慢，再添加一个延迟
+            }
+        }
+        if (btstate == true)
+            dropdown();
+    }).on('pjax:start', function () {
+        $(".pjaxloading").fadeIn(50);
+    }).on('pjax:end', function () {
+        $(".pjaxloading").fadeOut(50);
+    });
+    //------------------------核心功能--pjax全局渲染👆-------------------
+
+    //-------------------------------------------------搜索
+    // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
+    if (searchChoice) {
+        var searchInput = document.querySelector('.search-input');
+        var searchResults = document.querySelector('.search-results');
+    }
+    // 申明保存文章的标题、链接、内容的数组变量
+    var searchValue = '',
+        arrItems = [],
+        arrLinks = [],
+        arrTitles = [],
+        arrContents = [],
+        arrResults = [],
+        indexItem = [],
+        itemLength = 0;
+    var tmpDiv = document.createElement('div');
+    tmpDiv.className = 'result-item';
+
+
+    function getStorageContent() {
+        var data = localStorage.getItem('ContentsCache');
+        data = JSON.parse(data);
+        posts = data["posts"];
+        for (var i = 0; i < posts.length; i++) {
+            arrLinks[i] = posts[i].link;
+            arrTitles[i] = posts[i].title;
+            arrContents[i] = posts[i].content;
+            itemLength++;
+        }
+    }
+    if (checkCache())
+        getStorageContent();
+    // 输入框内容变化后就开始匹配，可以不用点按钮
+    // 经测试，onkeydown, onchange 等方法效果不太理想，
+    // 存在输入延迟等问题，最后发现触发 input 事件最理想，
+    // 并且可以处理中文输入法拼写的变化
+    searchInput.oninput = function () {
+        setTimeout(searchConfirm, 0);
+    }
+    searchInput.onfocus = function () {
+        searchResults.style.display = 'block';
+    }
+
+    function searchConfirm() {
+        if (searchInput.value == '') {
+            searchResults.style.display = 'none';
+        } else if (searchInput.value.search(/^\s+$/) >= 0) {
+            // 检测输入值全是空白的情况
+            searchInit();
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '请输入有效内容...';
+            searchResults.appendChild(itemDiv);
+        } else {
+            // 合法输入值的情况
+            searchInit();
+            searchValue = searchInput.value;
+            // 在标题、内容中查找
+            searchMatching(arrTitles, arrContents, searchValue);
+        }
+    }
+
+    // 每次搜索完成后的初始化
+    function searchInit() {
+        arrResults = [];
+        indexItem = [];
+        searchResults.innerHTML = '';
+        searchResults.style.display = 'block';
+    }
+
+    function searchMatching(arr1, arr2, input) {
+        // 忽略输入大小写
+        input = new RegExp(input, 'i');
+        var step = 10;
+        // 在所有文章标题、内容中匹配查询值
+        for (i = 0; i < itemLength; i++) {
+            var indexContent = arr2[i].search(input);
+            //标题匹配
+            if (arr1[i].search(input) != -1) {
+                indexItem.push(i); // 保存匹配值的索引
+                if (indexContent != -1) {
+                    startindex = (indexContent - step) >= 0 ? (indexContent - step) : 0;
+                    var searchcontent = arr2[i].slice(indexContent - step, indexContent + 5)
+                    arrResults.push("....." + searchcontent + ".....");
+                } else
+                    arrResults.push("");
+            }
+            //内容匹配
+            else if (indexContent != -1) {
+                indexItem.push(i); // 保存匹配值的索引
+
+                startindex = (indexContent - step) >= 0 ? (indexContent - step) : 0;
+                var searchcontent = arr2[i].slice(indexContent - step, indexContent + 5)
+                arrResults.push("....." + searchcontent + ".....");
+            }
+        }
+
+        // 输出总共匹配到的数目
+        var totalDiv = tmpDiv.cloneNode(true);
+        totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
+        searchResults.appendChild(totalDiv);
+
+        // 未匹配到内容的情况
+        if (indexItem.length == 0) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '未匹配到内容...';
+            searchResults.appendChild(itemDiv);
+        }
+
+        // 将所有匹配内容进行组合
+        for (i = 0; i < arrResults.length; i++) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerHTML = '<a data-pjax class="searchresults" href="' + arrLinks[indexItem[i]] + '"><b>[' +
+                arrTitles[indexItem[i]] +
+                ']</b><p>' + arrResults[i] + '</p></a><hr />';
+            searchResults.appendChild(itemDiv);
+        }
+    }
+</script>
+
+
+
+<!--------------------- 菜单栏图标加载功能👇 ----------------------->
+<script>
+var menulist = $(".menuicon");
+var menulength = menulist.length;
+for (var i = 0; i < menulength; i++) {
+    var altname = menulist.eq(i).attr("alt");
+    var iconurl = icondict[altname];
+    if (iconurl == undefined || iconurl == '')
+        continue;
+    if (iconurl == 'Home') {
+        menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/Home.png");
+menulist.eq(i).show();
+} else if (iconurl == 'Archive') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/Archive.png");
+menulist.eq(i).show();
+} else if (iconurl == 'Tag') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/Tag.png");
+menulist.eq(i).show();
+} else if (iconurl == 'About') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/About.png");
+menulist.eq(i).show();
+} else if (iconurl == 'Talk') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/Talk.png");
+menulist.eq(i).show();
+} else if (iconurl == 'Friends') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/Friends.png");
+menulist.eq(i).show();
+} else if (iconurl == 'Fly') {
+menulist.eq(i).attr("src", "https://Celenova.github.io/media/images/wind.png");
+menulist.eq(i).show();
+} else {
+menulist.eq(i).attr("src", iconurl);
+menulist.eq(i).show();
+}
+}
+</script>
+<!--------------------- 菜单栏图标加载功能👆 ----------------------->
+
+<script>
+    //--------------------bber-onetalk加载👇--------------------------------
+    function bberonetalkLoad(){
+        bberjsonurl = '';
+        if ( $("#bber-talk").length > 0 ) {
+        jsonUrl = bberjsonurl
+        $.getJSON(jsonUrl+"?t="+Date.parse( new Date()),function(res){
+        var bberHtml = ''
+        $.each(res.data, function(i, item){
+            d = new Date(item.date)
+            date = d.getFullYear()+'/'+(d.getMonth()+1)+'/'+d.getDate() +' '+d.getHours()+':'+d.getMinutes()+':'+d.getSeconds()
+            dataTime = '<span class="datatime">'+date+'</span>'
+            bberHtml += '<li class="item item-'+(i+1)+'">'+dataTime+'： <a data-pjax href="https://Celenova.github.io/bber">'+item.content+'</a></li>'
+        });
+        $('#bber-talk').append('<span class="index-talk-icon"><svg viewBox="0 0 1024 1024" width="21" height="21"><path d="M184.32 891.667692c-12.603077 0-25.206154-2.363077-37.809231-7.876923-37.021538-14.966154-59.864615-49.624615-59.864615-89.009231v-275.692307c0-212.676923 173.292308-385.969231 385.969231-385.969231h78.76923c212.676923 0 385.969231 173.292308 385.969231 385.969231 0 169.353846-137.846154 307.2-307.2 307.2H289.083077l-37.021539 37.021538c-18.904615 18.116923-43.323077 28.356923-67.741538 28.356923zM472.615385 195.347692c-178.018462 0-322.953846 144.935385-322.953847 322.953846v275.692308c0 21.267692 15.753846 29.144615 20.48 31.507692 4.726154 2.363077 22.055385 7.876923 37.021539-7.08923l46.473846-46.473846c6.301538-6.301538 14.178462-9.452308 22.055385-9.452308h354.461538c134.695385 0 244.184615-109.489231 244.184616-244.184616 0-178.018462-144.935385-322.953846-322.953847-322.953846H472.615385z"></path><path d="M321.378462 512m-59.076924 0a59.076923 59.076923 0 1 0 118.153847 0 59.076923 59.076923 0 1 0-118.153847 0Z"></path><path d="M518.301538 512m-59.076923 0a59.076923 59.076923 0 1 0 118.153847 0 59.076923 59.076923 0 1 0-118.153847 0Z"></path><path d="M715.224615 512m-59.076923 0a59.076923 59.076923 0 1 0 118.153846 0 59.076923 59.076923 0 1 0-118.153846 0Z"></path></svg></span><ul class="talk-list">'+bberHtml+'</ul>')
+        //Lately({ 'target': '#bber-talk .datatime' });
+        });
+        function Roll (){
+        var list_li = $('.talk-list li'),cur_li = list_li.first(),last_li = list_li.last();
+        last_li.after(cur_li);
+        };
+        setInterval(Roll,3000);
+    }
+    }
+  //--------------------bber-onetalk加载👆--------------------------------
+</script>
+
+<script>
+    var ClicksideState = 1
+    var cur_readingmode = false
+    function readingmode(){
+        if (!cur_readingmode){
+            if(menupos == 'left'){
+                if(ClicksideState==1)
+                menu_openclose1()
+            }
+            $("#tab1").fadeOut(50)
+            $("#bg").fadeOut(50)
+            $(".navbar").fadeOut(50)
+            $(".markdownIt-TOC li a").css("color","black")
+            cur_readingmode = true
+        }else{
+            if(menupos == 'left'){
+                if(ClicksideState==0)
+                    menu_openclose1()
+            }
+            $("#tab1").fadeIn(50)
+            $("#bg").fadeIn(50)
+            $(".navbar").fadeIn(50)
+            $(".markdownIt-TOC li a").css("color","antiquewhite")
+            cur_readingmode = false  
+        }
+    }
+</script>
+
+
+<!----夜间模式👇-->
+<script>
+    var moonlightState = false
+    function moonlight(){
+        if(!moonlightState){
+            $("#bg").fadeOut(200)
+            $('body').css("background","rgba(0,0,0,0.8)")
+            $(".markdownIt-TOC li a").css("color","white")
+            $(".text p, .text ul").css("color","white")
+            $("#articlecontent").css("color","white")
+            $(".post-copyright").css("background","rgba(10,10,10,0.5)")
+            $('blockquote').css("background","rgba(10,10,10,0.6)")
+            $("#articlecontent").css("background","rgba(10,10,10,0.5)")
+            moonlightState = true
+            $(".moon").attr("src","https://Celenova.github.io/media/images/sun.png")
+        }else{
+            $("#bg").show()
+            $(".markdownIt-TOC li a").css("color","antiquewhite")
+            $(".text p, .text ul").css("color","rgba(0, 0, 0, 0.7)")
+            $("#articlecontent").css("color","black")
+            $(".post-copyright").css("background","#f9f9f9")
+            $('blockquote').css("background","#eff8f0")
+            $("#articlecontent").css("background","white")
+            $(".moon").attr("src","https://Celenova.github.io/media/images/moon.png")
+            $('body').css("background","white")
+            moonlightState = false
+        }
+    }
+</script>
+<!----夜间模式👆--></div>
+            <!--------------- pc端菜单栏👆 ---------------->
+
+            <!-- ----------------左侧菜单栏html 👇-------------------------------------->
+            
+            <!--------------- 顶部菜单栏html👇--------->
+            <div>
+                <div class="col-lg-3"></div>
+                <!-- main标签，pjax渲染时加载以下内容👇 -->
+                <div id="main" class="col-xs-12 col-sm-12 col-md-12  col-lg-6 posttop" style="padding:0;">
+                    <div class="readingmode" onclick="readingmode()">阅</div>
+                    <link rel="stylesheet" href="https://Celenova.github.io/media/css/font-awesome.css">
+
+<body>
+    <div class="allcontent" id="postdetail">
+        <div class="postshow postpadding" style="padding-bottom: 0;">
+            
+            <div class="postdetailimg">
+                <img src="https://Celenova.github.io/post-images/jing-shi-ming-yan.jpg" class="postimage" style="cursor:auto">
+            </div>
+            <div class="postinfo-detail">
+                <div class="postdate"><i class="fa fa-calendar"></i>2025-08-04</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 12 min read</div>
+                <div class="posttag">
+                    
+                    <a data-pjax href="https://Celenova.github.io/tag/114514/" class="postlink">
+                        <i class="fa fa-tag"></i> 娱乐
+                    </a>
+                    
+                </div>
+            </div>
+            
+        <div id="articlecontent">
+            <div id="texttitle" style="text-align: center">
+                <h2 id="ptitle">警世名言</h2>
+                <!-- id 将作为查询条件 -->
+                <div id="pl" style="display:none">https://Celenova.github.io/post/jing-shi-ming-yan/</div>
+                <div id="rootaddr" style="display:none">https://Celenova.github.io</div>
+                
+            </div>
+            <div class="text ">
+                <blockquote>
+<p>1.如果一种文明没有一种强大的力量来保护，那么这种文明是脆弱的，迟早会被野蛮所征服。</p>
+</blockquote>
+<blockquote>
+<p>2.如果文明没有对野蛮进行排斥、打压，那么这种文明不是真正的文明。</p>
+</blockquote>
+<blockquote>
+<p>3.要消灭一个民族，首先瓦解它的文化；要瓦解它的文化，首先先消灭承载它的语言；要消灭这种语言，首先先从他们的学校里下手。</p>
+</blockquote>
+<blockquote>
+<p>4.胜者为王，败者为寇。我知道明天全世界的人都会因为我战败而责备我,但那又有什么呢?</p>
+</blockquote>
+<blockquote>
+<p>5.如果日尔曼民族不在强大到可以浴血保卫它自己的存在的话，它就应当灭亡。</p>
+</blockquote>
+<blockquote>
+<p>6.信仰比知识更难动摇；热爱比尊重更难变易；仇恨比厌恶更加持久。</p>
+</blockquote>
+<blockquote>
+<p>7.我们已经设定了一个目标，并将为之努力奋斗，直到死亡！</p>
+</blockquote>
+<blockquote>
+<p>8.你们必须跟着我庄严的宣誓：我们需要的是和平，我们需要的是献身于我们的事业。</p>
+</blockquote>
+<blockquote>
+<p>9.我来到世界不是为了使人们更强，而是去利用他们的短处。</p>
+</blockquote>
+<blockquote>
+<p>10.我们的斗争只可能有两种结果：要么敌人踏着我们的尸体过去，要么我们踏着敌人的尸体过去。</p>
+</blockquote>
+<blockquote>
+<p>11.我们必须咬紧牙关，全力以赴去做一件事情；否则，我们将一事无成。</p>
+</blockquote>
+<blockquote>
+<p>12.世界上变革的最强推动力不是统治群众的科学认识，而是赋予群众以力量的狂热，有时甚至是驱赶民众向前的歇斯底里。</p>
+</blockquote>
+<blockquote>
+<p>13.国家的安全不能寄托于别人的恩赐上，历史总是在军刀上前进，这个世界就是弱肉强食的世界。要生存、要尊严，就需要有强大的军备。</p>
+</blockquote>
+<blockquote>
+<p>14.人类的整个生命离不开三个论点：斗争产生一切，美德寓于流血之中，领袖是首要的、决定性的。</p>
+</blockquote>
+<blockquote>
+<p>15.社会事业的不易完成，它的症结所在，不在施行小惠，而在恢复民众的权利。一个人的责任并不在于默然的去工作,而是在公然的铲除罪恶,力谋补救。</p>
+</blockquote>
+<blockquote>
+<p>16.我们也许会毁灭，但当我们毁灭时将会把整个世界捆在一起，一同跳入火坑。</p>
+</blockquote>
+<blockquote>
+<p>17.我们的斗争只可能有两种结果：要么敌人踏着我们的尸体过去，要么我们踏着敌人的尸体过去。</p>
+</blockquote>
+<blockquote>
+<p>18.如果有人说：你做梦吧！我只能回答他说：你这个笨蛋，如果我不是一个梦想者的话，我们今天会在哪里呢？我一直相信德国，你说我是一个做梦者；我一直坚信帝国的崛起，你说我是个傻子；我一直相信我能重新夺回权利，你说我疯了；我一直坚信贫穷会有尽头，你说那是乌托邦。谁是对的？你还是我？！我是对的，我一直会是！</p>
+</blockquote>
+<blockquote>
+<p>19.一个民族正经历着动荡，我们，在被幸运之神垂青。</p>
+</blockquote>
+<blockquote>
+<p>20.我们应该感到高兴，未来必将完全属于我们！</p>
+</blockquote>
+<blockquote>
+<p>21.德国的明天就指望你们了，德国的青年们！</p>
+</blockquote>
+<blockquote>
+<p>22.我们必须咬紧牙关，全力以赴去做一件事情；否则，我们将一事无成。</p>
+</blockquote>
+<blockquote>
+<p>23.每一代都至少应该经历一场战争的洗礼。</p>
+</blockquote>
+<blockquote>
+<p>24.我来完成耶稣基督未竟的事业。</p>
+</blockquote>
+<blockquote>
+<p>25.他们得小心了，总有一天我们的忍耐到了尽头，那时侯我们会让那些无耻的犹太人永远住嘴！！！</p>
+</blockquote>
+<blockquote>
+<p>26.我不相信，那些以前在不断嘲笑我们的人，现在，他们还在笑！！！</p>
+</blockquote>
+<blockquote>
+<p>27.你们必须跟着我庄严的宣誓：我们需要的是和平，我们需要的是献身于我们的事业。</p>
+</blockquote>
+<blockquote>
+<ol start="28">
+<li>去征服剥削掠夺乃至消灭劣等民族，乃是我无可推卸的职责与特权。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>29.如果日尔曼民族不在强大到可以浴血保卫它自己的存在的话，它就应当亡。</p>
+</blockquote>
+<blockquote>
+<p>30.如果我的民族在这场实验中失败了，我将不会为之哭泣，是他们自找了这样的结局。</p>
+</blockquote>
+<blockquote>
+<p>31.超凡的思想是不会与凡夫俗子共存的。</p>
+</blockquote>
+<blockquote>
+<p>32.我们已经设定了一个目标，并将为之努力奋斗，直到死亡！</p>
+</blockquote>
+<blockquote>
+<p>33.只有那些疯狂的大众才是驯服的。</p>
+</blockquote>
+<blockquote>
+<p>34.民众是盲目和愚蠢的。</p>
+</blockquote>
+<blockquote>
+<p>35.我通过循循善诱得到了一切。</p>
+</blockquote>
+<blockquote>
+<p>36.大众就像是个任我为所欲为的女人。</p>
+</blockquote>
+<blockquote>
+<p>37.妇女教育的不可动摇的目的就是养育子女。</p>
+</blockquote>
+<blockquote>
+<p>38.女人的智力是完全无用的。</p>
+</blockquote>
+<blockquote>
+<p>39.只有对我来说有用的条约才是有效的。</p>
+</blockquote>
+<blockquote>
+<p>40.我们以前总是，将来也会继续对一切事冒险。</p>
+</blockquote>
+<blockquote>
+<p>41.我总想战斗。</p>
+</blockquote>
+<blockquote>
+<p>42.对敌人来说没有什么地方比坟墓更好了。</p>
+</blockquote>
+<blockquote>
+<p>43.没有人可以夺走我们的荣誉。为了德国人民，我们必须战斗15—20年</p>
+</blockquote>
+<blockquote>
+<p>44.我宁愿在50岁而不是在55或60岁发动战争。</p>
+</blockquote>
+<blockquote>
+<p>45.时代呼唤战争而不是和平。</p>
+</blockquote>
+<blockquote>
+<p>46.政治的最终目的是战争。</p>
+</blockquote>
+<blockquote>
+<p>47.我们只能用武器来保卫和平。</p>
+</blockquote>
+<blockquote>
+<p>48.有没有世界大战对我来说都一样。</p>
+</blockquote>
+<blockquote>
+<p>49.年轻人本来就是要牺牲的。</p>
+</blockquote>
+<blockquote>
+<p>50.只要还有一个德国人活下来，战争就将继续。</p>
+</blockquote>
+<blockquote>
+<p>51.我们的运动是反议会制的。</p>
+</blockquote>
+<blockquote>
+<p>52.信仰比知识更难动摇；热爱比尊重更难变易；仇恨比厌恶更加持久。</p>
+</blockquote>
+<blockquote>
+<p>53.世界上变革的最强推动力不是统治群众的科学认识，而是赋予群众以力量的狂热，有时甚至是驱赶民众向前的歇斯底里。</p>
+</blockquote>
+<blockquote>
+<p>54.伟大的说谎者同时也是伟大的魔术师。</p>
+</blockquote>
+<blockquote>
+<p>55.民众不思考就是政府的福气。</p>
+</blockquote>
+<blockquote>
+<p>56.我的意志决定一切。</p>
+</blockquote>
+<blockquote>
+<p>57.我们将要系统的，毫不留情的消灭敌人，连根带叶。</p>
+</blockquote>
+<blockquote>
+<p>58.在发动战争和进行战争时，是非问题是无关紧要的，紧要的是胜利！</p>
+</blockquote>
+<blockquote>
+<p>59.如果他们背叛国家的话，等待他们的只有死亡！</p>
+</blockquote>
+<blockquote>
+<p>60.国家的安全不能寄托于别人的恩赐上，历史总是在军刀上前进，这个世界就是弱肉强食的世界。要生存、要尊严，就需要有强大的军备。</p>
+</blockquote>
+<blockquote>
+<p>61.去征服、剥削、掠夺乃至消灭劣等民族，乃是我无可推卸的职责与特权。</p>
+</blockquote>
+<blockquote>
+<p>62.历史上伟大的国家兴亡，完全是由于种族混合以至破坏了血统纯洁所致。为了要防范这种灾难的发生，所以国家必须尽到责任，采取防范的措施。</p>
+</blockquote>
+<blockquote>
+<p>63.民族国家的创造，绝不是毅力单薄的民族主义联合会所能济事的，只有具备钢铁般坚决意志的单独运动，才能打倒其它一切运动而获得最后胜利。</p>
+</blockquote>
+<blockquote>
+<p>64.凡是一种理想寄托的，无论什么组织，它的伟大，就是在于它的宗教狂热，和那不能容忍的固执精神，他们攻击其它的组织，并且坚信着人家都是不对的，只有自己才是对的。如果理想的本身合理，再加上这种武器，那么，这种理想，奋斗于世界之上，必定是所向无敌的。凡把压力加在这种组织上，那是为促使其内部的实力提高。</p>
+</blockquote>
+<blockquote>
+<p>65.人类的进步，好像是去永无止境的梯子。登高必须要从下面拾级而起，所以亚利安人必须要遵循实际的道路，向前进行，这道路绝不是近代和平者所梦想的道路。</p>
+</blockquote>
+<blockquote>
+<p>66.战争已经变成一种神秘的科学，令人高深莫测。但是战争其实是一个极自然的东西，也是日常生活中最必要的东西……战争就是生活。</p>
+</blockquote>
+<blockquote>
+<p>67.只有今天会服从的人，明天才可以指挥。</p>
+</blockquote>
+<blockquote>
+<p>68.一个领袖，一种群众，一个国家。</p>
+</blockquote>
+<blockquote>
+<p>69.士兵不要思想，有领袖替他们思想。</p>
+</blockquote>
+<blockquote>
+<p>70.时间已经来到，所有时刻全世界最邪恶的犹太敌人，至少要让他们停止角色一千年。</p>
+</blockquote>
+<blockquote>
+<p>71不能用和平取得的东西，就用拳头来取。</p>
+</blockquote>
+<blockquote>
+<p>72.我来到世界不是为了使人们更强，而是去利用他们的短处。</p>
+</blockquote>
+<blockquote>
+<p>73.人道是愚蠢、怯懦和自作聪明的混合物。</p>
+</blockquote>
+<blockquote>
+<p>74.人类在永恒的斗争中壮大，在永恒的和平中毁灭。</p>
+</blockquote>
+<blockquote>
+<p>75.人类在斗争中变得强大，不论他达到了什么目标，都是由于他的创造力加上他的残忍。</p>
+</blockquote>
+<blockquote>
+<p>76.人类的整个生命离不开三个论点：斗争产生一切，美德寓于流血之中，领袖是首要的、决定性的。</p>
+</blockquote>
+<blockquote>
+<p>77.在上帝和世界面前，总是强者有权利贯彻他的意志。</p>
+</blockquote>
+<blockquote>
+<p>78.强者必须统治弱者，只有天生的弱者才会认为这是残酷的。</p>
+</blockquote>
+<blockquote>
+<p>79.怜悯是一种原罪。怜悯弱者是违背自然的事。</p>
+</blockquote>
+<blockquote>
+<p>80.大自然的全部工作是强者与弱者之间的剧烈斗争——强者统治弱者的永恒胜利。如果不是这样，整个大自然就只有衰亡。违背这个基本规律的国家也将衰亡。</p>
+</blockquote>
+<blockquote>
+<p>81.民众爱严峻的统治者，甚于爱乞怜的人。</p>
+</blockquote>
+<blockquote>
+<p>82.多数，常是愚蠢和懦弱的政策的辩护者，集合一百个愚夫，不能成为一个聪明人，所以英武的决断，决不能从一百个懦夫中得到。</p>
+</blockquote>
+<blockquote>
+<p>83.要使政治达到改革运动的目的，我们决不能单由苦心劝导，或是感化当局的方式达到目的。唯一的方法，便在夺取政权。</p>
+</blockquote>
+<blockquote>
+<p>84.强者的独裁便成为最强者。</p>
+</blockquote>
+<blockquote>
+<ol start="85">
+<li>由于个人已经完全将他的自我屈服于共同体的生命上，个人自我保存的本能于是便能发挥至极限，并且能在必要时替共同体牺牲他的生命。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="86">
+<li>在千百人中间，必须要有一个人站出来，他有着无容置疑的力量。能够在摇摆不定的广大群众的思想世界中，形成花岗岩般的原则，并且为了这些原则的唯一正确性而进行斗争，直到在自由的思想世界的起伏的波浪中，出现一块信念和意志完全一致的坚固的岩石！</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="87">
+<li>世界上每一个伟大运动的成功，大都归功于出色的演说家，而不是伟大的作家。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="88">
+<li>我生长在边陲小镇上，便负有神圣伟大的使命。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="89">
+<li>世界未来大战的第一颗炮弹，也许藏在德奥联盟后的德意志的一尊炮口里吧。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="90">
+<li>我希望艰苦地和自己命运搏斗一场，战胜之后就能成为一个世界杰出人物；但我不将做官看作一生最高的目标!</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="91">
+<li>他宁愿屈服于强者，而不愿去支配一个弱者，所以民众对精神是所受的威胁，并不觉得可耻，就像他们不觉得他的自由被凌，及至逼而反抗就以为可耻的，他们或许不知道遇的冤抑，但见到统治者举止的果毅，言论的坚利而终使他们服从到底。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="92">
+<li>他对于无权力意志的畏惧，还不若他对于资本平凡而意志果毅的人的畏惧为厉害。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="93">
+<li>一个人身兼党、国家、行政数职已成为迅速得以实现的民族社会主义统治原则。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="94">
+<li>一个国家的疆界的决定的变更，完全是由人力造成的。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="95">
+<li>将来终有一天会使昨天的友邦变为明天的仇敌的。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>96.凡是民族，决不能自己不努力而获得自由的，只有牺牲，才能获得自由。</p>
+</blockquote>
+<blockquote>
+<p>97.民族社会主义既不把个人也不把人类作为其考虑问题、发表意见和作出决定的出发点。它有意识地把民族当作它整个思想的中心。这个民族对它来说是一种由血缘决定的现象，它认为这是上帝授予的人类社会的组成部分。个人是会消亡的，民族是永存的，自由主义世界崇拜个人，必然导致民族的毁灭。相反，民族社会主义则要求保护民族，必要时牺牲个人为代价。必须使每个人逐渐认识到，他的自我同整个民族的存在相比是微不足道的。</p>
+</blockquote>
+<blockquote>
+<p>98.我要让全世界记住我一千年！</p>
+</blockquote>
+<blockquote>
+<ol start="99">
+<li>新帝国必须再一次沿着古代条顿武士的道路进军，用德国的剑为德国的犁取得土地，为德国人民取得每天的面包。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="100">
+<li>只有天生的弱种才会认为这是残酷的……凡是想生存的，必然奋斗，不想奋斗的，就不配生存在这个永恒的斗争的世界里。即使残酷，却是客观现实。</li>
+</ol>
+</blockquote>
+
+            </div>
+            <hr style="width: 80%;">
+            
+            <div class="postfooter">
+                <ul class="post-copyright">
+                    <li><strong>文章作者：</strong></li>
+            <li><strong>原文链接：</strong>https://Celenova.github.io/post/jing-shi-ming-yan/</li>
+            <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
+                许可协议。转载请注明出处！</li>
+            </ul>
+        </div>
+        
+        <div id="otherpost">
+            
+            <a  data-pjax class="prev-post-pc" href="https://Celenova.github.io/post/gao-zhong-shu-xue-bi-xiu-yi-bi-ji/"  style="color: black;">
+                <div id="ppcontainer">
+                    
+                    <img src="https://Celenova.github.io/post-images/gao-zhong-shu-xue-bi-xiu-yi-bi-ji.jpg" style="width: 100%;" class="opimg">
+                    
+                    <h4 class="optitle">高中数学必修一笔记</h4>
+                </div>
+            </a>
+            <div class="prev-post">
+                上一篇 <a  data-pjax href="https://Celenova.github.io/post/gao-zhong-shu-xue-bi-xiu-yi-bi-ji/">高中数学必修一笔记</a>
+            </div>
+            
+            
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- 弹窗 -->
+    <div id="myModal" class="modal">
+        <img class="modal-content" id="img01">
+    </div>
+</body>
+<script>
+    //文章阅读热度
+    var pl = $("#pl").html();
+    var rootaddr = $("#rootaddr").html();
+    pl = pl.replace(rootaddr, "");
+    $("#hotnum").attr('id', pl);
+</script>
+                    <div class="toc-container">
+                        
+                    </div>
+                    <div class="tog">
+                        <div class="toggleContainer">
+                            <div class="toggle">
+                                <i class="fas fa-angle-double-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------------- 评论系统👇 ------------------------->
+                    <div id="comment" class="comment">
+                        <div class="commentcontainer">
+                            
+                                
+                            
+                        </div>
+                    </div>
+                    <!---------------------------- 评论系统👆 ------------------------->
+
+                    <!-------------- 底部栏信息👇 -------------------->
+                    <div style="margin-top:5vh">
+                        
+                        <style>
+    .copyright {
+        font-size: 15px;
+        color: #d9d9d9;
+    }
+
+
+    @media screen and (min-width: 1200px) {
+        .foot {
+            width: 100%;
+            height: 130px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .foot {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <div class="foot">
+        <div id="footinfo"> | Theme: <a
+                href="https://github.com/850552586/gridea-theme-fog">Fog</a>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 鄂ICP备...号
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+                        
+                    </div>
+                    <!-------------- 底部栏信息👆 -------------------->
+                </div>
+                <!-- main标签，pjax渲染时加载以上内容👆 -->
+                <div class="col-md-2 col-lg-3">
+                </div>
+                <div id="bg">
+                </div>
+            </div>
+        <!--------------- 顶部菜单栏html👆--------->
+        
+        </div>
+        <!-- aplayer播放器加载👇 -->
+            
+        <!-- aplayer播放器加载👆 -->
+    </div>
+    <!-- 背景图加载方式👇 -->
+    <div id="bgchoice" style="display: none">link
+                </div>
+                
+                <div id="bgurl" style="display:none">https://cdn.luogu.com.cn/upload/image_hosting/lz40zqee.png</div>
+                
+    <!-- 背景图加载方式👆 -->
+</body>
+
+<script>
+    //初始化
+    //更换twikoo头像
+    setTimeout(replaceAvatar,1000);
+    setTimeout(replaceAvatar,2000);
+    setTimeout(replaceAvatar,8000);
+    // --------为每张图片添加懒加载（lazyload）标签-->懒加载功能 👇------------
+    lazyload();
+    //为文章内所有代码块添加代码复制功能 👇
+    codeinit();
+    // ------代码高亮显示功能-------------
+    hljs.initHighlightingOnLoad();
+    if (shareChoice)
+        shareInit();
+    if (donateChoice)
+        donateInit();
+</script>
+
+<!------------------ 加载live2d模型功能（看板娘）👇 ---------------->
+
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = document.getElementById("domainname").innerHTML + "/"; //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="https://Celenova.github.io/media/js/live2d.js"></script>
+<script type="text/javascript" src="https://Celenova.github.io/media/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "https://Celenova.github.io/media/live2d/assets/tororo.model.json");
+</script>
+
+<!------------------ 加载live2d模型功能（看板娘）👆 ---------------->
+
+
+<!----------------------- 返回顶部按钮功能👇 --------------------->
+<script>
+    $(function () {
+        $('.toggleContainer').click(function () {
+            $('html,body').animate({
+                scrollTop: '0px'
+            }, 800);
+        });
+        $(window).scroll(function () {
+            var st = $(window).scrollTop();
+            if (st > 30) {
+                $(".toggleContainer").fadeIn(400);
+            } else {
+                $(".toggleContainer").fadeOut(100);
+            }
+        });
+    });
+</script>
+<!----------------------- 返回顶部按钮功能👆 --------------------->
+
+
+<!------------ 加载全局背景图功能👇（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
+<script>
+    var bgchoice = "link"
+    var bg = $('#bg');
+    var bgurl = document.getElementById("bgurl").innerHTML;
+    if (bgchoice == 'default')
+    {
+        for (var i = 0; i < 3; i++)
+            bgurl = bgurl.replace("\\", "/");
+        bgurl = "https://Celenova.github.io/" + bgurl;
+    }
+    bg.css("background", "url('" + bgurl + "')");
+
+    window.onload = function () {
+        aplayerbtnInit();
+    }
+</script>
+<!------------ 加载全局背景图功能👆（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
+
+
+
+
+
+<script>
+    //加载后的事件同步（阅读量、移动端评论等
+    window.onload = function () {
+    //代码块高亮渲染
+    document.querySelectorAll('pre code').forEach((block) => {
+            hljs.highlightBlock(block);
+            hljs.lineNumbersBlock(block);
+    });
+        getHotnum();
+        var sharepc = $(".share").eq(0).html();
+        $(".share").eq(1).html(sharepc);   //插件只会寻找一个分享标签渲染，所以需要手动添加到移动端
+        aplayerbtnInit();
+        $(".hljs").css({
+            "padding": "20px"
+        })
+    }
+</script>
+
+<!-- <script src="https://Celenova.github.io/media/js/av-min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.13.0/dist/av-min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.6.1/dist/av-live-query-min.js"></script> -->
